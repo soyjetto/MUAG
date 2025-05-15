@@ -55,7 +55,9 @@ soundArray.push(scoreSound);
 export var ambientSound = new soundFile("MUAG PONG SONG.mp3");
 soundArray.push(ambientSound);
 ambientSound.player.loop = true; //turn on looping
-ambientSound.player.volume.value = -20; //turn down volume
+ambientSound.player.volume.value = 0; //turn down volume
+myaudio=document.getElementById("MUAG PONG SONG.mp3");
+myaudio.playbackRate=0.5;
 
 export var adventureMusic = new soundFile("silence.mp3");
 soundArray.push(adventureMusic);
